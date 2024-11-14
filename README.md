@@ -29,9 +29,7 @@ A passionate Software Engineering student with a keen interest in both back-end 
 
 Proficient in Figma, I use my design skills to craft engaging digital experiences while continuously learning and evolving my technical expertise. When I'm not coding or designing, you can find me exploring the latest trends in technology and UI/UX.
 
-![About Image](02240365.JPG)
 
----
 
 ## Services
 
