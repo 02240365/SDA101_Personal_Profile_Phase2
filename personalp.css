@@ -86,12 +86,7 @@ a:hover {
     margin: auto;
     text-align: left;
 }
-.about-image {
-    width: 150px;
-    height: 150px;
-    margin-top: 30px;
-    align-self: flex-start;
-}
+
 
 
 
@@ -120,19 +115,25 @@ a:hover {
 
 
 
-
 /* Portfolio Section */
 .portfolio {
     padding: 40px 20px;
     background: #333;
     color: #fff;
-    
-
+    text-align: center; /* Center-aligns all text within the portfolio section */
 }
+
+.portfolio h2 {
+    font-size: 1.5em; /* Adjust font size as desired */
+    margin-bottom: 10px; /* Space below heading */
+    color: #fff; /* Heading color */
+}
+
 .portfolio-filter {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .portfolio-filter button {
     background: #e91e63;
     color: #fff;
@@ -141,14 +142,14 @@ a:hover {
     margin: 5px;
     cursor: pointer;
 }
+
 .portfolio-grid {
     display: grid;
     gap: 10px;
     max-width: 200px;
     max-height: fit-content;
-margin: auto;
+    margin: auto;
 }
-
 
 .portfolio-item img {
     width: 100%;
