@@ -17,7 +17,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between; /* Space between nav items */
-    align-items: center; /* Center items vertically */
+    align-items: center; /*Center items vertically */
     color: #000000;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 
 
 /* Home Page */
-.hero {
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@ a:hover {
     padding: 50px 20px;
 }
 
-.hero-content {
+.home-content {
     max-width: 600px; /* Limit width for better readability */
 }
 
@@ -204,7 +204,7 @@ footer {
 
 
 /* Responsive Styling for Mobile Devices */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
     /* Header adjustments */
     nav {
@@ -219,13 +219,13 @@ footer {
         margin-left: 0; /* Reset margin for nav items */
     }
 
-    /* Hero Section */
-    .hero {
+    /* Home Section */
+    .home {
         padding: 30px 10px; /* Reduce padding for smaller screens */
         flex-direction: column; /* Stack content vertically */
     }
 
-    .hero-content {
+    .home-content {
         max-width: 100%; /* Full width on mobile */
     }
 
